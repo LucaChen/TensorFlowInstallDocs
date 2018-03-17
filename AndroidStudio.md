@@ -1,28 +1,27 @@
 ---
-title: Tensorflow学习指南--安装配置篇(windows-cpu)
+title: AndroidStudio安装指南
 date: 2017-09-29 15:41:26
-tags: [Tensorflow,技术笔记]
+tags: [AndrdoidStudio,技术笔记]
 toc: true
 ---
 # 安装指南
 
 ## 1.前言
 
-（开篇废话）欢迎大家加入我们ADT互动编程的课程，在这里我们将带你们做一些有意思的事情，你们也可以将它们看成物联网的基础启蒙。
-在进入我们的课程前我们需要做一些准备工作，在本次的课程中我们主要要用到的软件有两个，一个是用来编写我们手机软件的AndroidStudio（见图1）。接下来的说明中我们将介绍如何安装AndroidStduio以及如何使用
+AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如何安装AndroidStduio以及如何使用
 ![icon](http://ok33lph8y.bkt.clouddn.com/1.png)
 
 <!-- more -->
 
-## 2.准备工作
+## 2.安装Java SDK
 
-由于一些众所周知的原因，身处国内的我们下载国外的资源会比较困难，不是下载不了就是下载速度慢，在这里我先贴出安装前我们要准备的内容。
+AndroidStudio是用来开发安卓手机软件的开发工具，在众多开发软件中，是google最青睐以及支持最好的开发软件（毕竟亲儿子）
+	
+Tips:开发Android软件所使用的主要语言是java所以在安装AndroidStudio前我们需要先安装用来开发java的工具 java jdk。
 
-- Anaconda 5.1([官网](https://www.anaconda.com/download/#windows) | [百度云](111))
+首先从我们提供的百度云盘中下载需要用到的jdk-8u60-windows-x64（如果无法下载请联系助教）
 
-Tips：请根据自己电脑的版本选择下载32或64位安装程序，百度云盘中的安装程序为Anaconda官网源程序，如有需要可以用md5验证真伪
-
-### 2.1 Anaconda安装指南
+### 2.1 JAVA SDK 安装
 
 在下载好Anaconda后我们就可以开始安装了，整体的安装过程没什么特别的，和我们安装其他软件的流程一样可以一路Next过去，值得注意的是**请勿必记住自己安装Anaconda的位置**
 
