@@ -34,13 +34,42 @@ AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如
 ![jdk-3](http://ok33lph8y.bkt.clouddn.com/3.png)
 
 点击下一步，如果有修改地址的话请记住自己的安装地址
-![jdk-4](http://ok33lph8y.bkt.clouddn.com/4.png)
 
 ![jdk-4](http://ok33lph8y.bkt.clouddn.com/4.png)
 
+![jdk-5](http://ok33lph8y.bkt.clouddn.com/5.png)
+
+在安装的过程中会跳出一个弹窗，直接点击下一步就好
+
+![jdk-6](http://ok33lph8y.bkt.clouddn.com/6.png)
+
+![jdk-7](http://ok33lph8y.bkt.clouddn.com/7.png)
+
+然后我们的安装过程就结束了
+
+![jdk-8](http://ok33lph8y.bkt.clouddn.com/8.png)
+### 2.2 配置 JAVA SDK 环境变量
+
+在安装好jdk后我们需要配置我们电脑的环境，打开你安装jdk的文件夹（如果没有修改地址的话应该在C:\Program Files\Java下）
+
+![jdk-9](http://ok33lph8y.bkt.clouddn.com/9.png)
+
+打开jdk文件夹下的bin目录
+
+![jdk-10](http://ok33lph8y.bkt.clouddn.com/10.png)
+
+复制当前文件夹所在位置
+
+![jdk-11](http://ok33lph8y.bkt.clouddn.com/11.png)
+
+打开我的电脑点击标题栏的计算机（win7 请右键我的电脑点击属性->高级系统设置）
+
+![jdk-12](http://ok33lph8y.bkt.clouddn.com/12.png)
 
 
-Anaconda-install-4
+
+
+
 
 ![Anaconda-install-4](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/37590487.jpg)
 
