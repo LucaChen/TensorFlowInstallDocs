@@ -15,29 +15,30 @@ AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如
 
 ## 2.安装Java SDK
 
-AndroidStudio是用来开发安卓手机软件的开发工具，在众多开发软件中，是google最青睐以及支持最好的开发软件（毕竟亲儿子）
-	
-Tips:开发Android软件所使用的主要语言是java所以在安装AndroidStudio前我们需要先安装用来开发java的工具 java jdk。
+开发Android软件所使用的主要语言是java所以在安装AndroidStudio前我们需要先安装用来开发java的工具 java jdk。
 
 首先从我们提供的百度云盘中下载需要用到的jdk-8u60-windows-x64（如果无法下载请联系助教）
 
 ### 2.1 JAVA SDK 安装
 
-在下载好Anaconda后我们就可以开始安装了，整体的安装过程没什么特别的，和我们安装其他软件的流程一样可以一路Next过去，值得注意的是**请勿必记住自己安装Anaconda的位置**
+在下载好JAVA SDK后我们就可以开始安装了，整体的安装过程没什么特别的，和我们安装其他软件的流程一样可以一路Next过去。
 
 以下为我安装过程中的贴图：
 
-Anaconda-install-1
 
-![Anaconda-install-1](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/45960978.jpg)
 
-Anaconda-install-2
+![jdk-2](http://ok33lph8y.bkt.clouddn.com/2.png)
 
-![Anaconda-install-2](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/6924894.jpg)
+双击程序，开始安装
 
-Anaconda-install-3
+![jdk-3](http://ok33lph8y.bkt.clouddn.com/3.png)
 
-![Anaconda-install-3](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/26761751.jpg)
+点击下一步，如果有修改地址的话请记住自己的安装地址
+![jdk-4](http://ok33lph8y.bkt.clouddn.com/4.png)
+
+![jdk-4](http://ok33lph8y.bkt.clouddn.com/4.png)
+
+
 
 Anaconda-install-4
 
