@@ -18,7 +18,7 @@ Tips:个人而言比起windows我更推荐使用ubuntu系统
 
 由于一些众所周知的原因，身处国内的我们下载国外的资源会比较困难，不是下载不了就是下载速度慢，在这里我先贴出安装前我们要准备的内容。
 
-- Anaconda 5.1([官网](https://www.anaconda.com/download/#windows) | [百度云](111))
+- Anaconda 5.1([官网](https://www.anaconda.com/download/#windows) | [百度云](https://pan.baidu.com/s/15DkD9Ommh1TKumCcWUNdLw) (密码:fsb2))
 
 Tips：请根据自己电脑的版本选择下载32或64位安装程序，百度云盘中的安装程序为Anaconda官网源程序，如有需要可以用md5验证真伪
 
