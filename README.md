@@ -10,6 +10,11 @@
 
 本次研讨版需要安装Python开发环境以及CPU版的TensorFlow，Android Studio以及SDK，请参考本指南的第一，第三，第四节。第三节是关于GPU的TensorFlow安装，仅作为补充。
 
-所有的用到的软件都在这个  
-[百度云盘](https://pan.baidu.com/s/15DkD9Ommh1TKumCcWUNdLw) \(密码:fsb2\)\)中
+所有的用到的软件都在这个
+[百度云盘](https://pan.baidu.com/s/15DkD9Ommh1TKumCcWUNdLw) (密码:fsb2))
+
+
+
+
+
 
