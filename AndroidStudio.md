@@ -8,7 +8,7 @@ toc: true
 
 ## 1.前言
 
-AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如何安装AndroidStduio以及如何使用
+AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如何安装AndroidStduio以及JDK的安装
 ![icon](http://ok33lph8y.bkt.clouddn.com/1.png)
 
 <!-- more -->
@@ -66,128 +66,54 @@ AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如
 
 ![jdk-12](http://ok33lph8y.bkt.clouddn.com/12.png)
 
+然后点击系统属性
+
+![jdk-13](http://ok33lph8y.bkt.clouddn.com/13.png)
+
+点击高级系统设置
+
+![jdk-14](http://ok33lph8y.bkt.clouddn.com/14.png)
+
+点击环境变量设置
+
+![jdk-15](http://ok33lph8y.bkt.clouddn.com/15.png)
+
+双击系统变量中的Path，讲我们刚才复制的地址添加进来
+
+![jdk-16](http://ok33lph8y.bkt.clouddn.com/16.png)
+
+![jdk-17](http://ok33lph8y.bkt.clouddn.com/17.png)
+
+最后打开我们的cmd测试成果（win+R  然后输入cmd）
+
+![jdk-18](http://ok33lph8y.bkt.clouddn.com/18.png)
+
+你会打开一个黑色的窗口，在这里输入java –version，如果配置成果会类似下图的内容
+
+![jdk-19](http://ok33lph8y.bkt.clouddn.com/19.png)
+
+## 3.安装Android Studio
+
+做了这么多，我们终于要进入正片了，Let`t part!（咳咳无耻的盗了个图）是老样子下载群里面的android-studio-bundle-143.2821654-windows并解压
 
 
 
 
 
-![Anaconda-install-4](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/37590487.jpg)
 
-Anaconda-install-5
 
-![Anaconda-install-5](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/34334942.jpg)
 
-Tips：这里的1其实是可以不点的，它主要的作用是将Anaconda添加到你的环境变量中，如果你以后更改了Anaconda位置，bash中使用Anaconda命令可能会失效(需要手动修改环境变量)
 
-Anaconda-install-6
 
-![Anaconda-install-6](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/51414653.jpg)
 
-Anaconda-install-7
 
-![Anaconda-install-7](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/35164873.jpg)
 
-Anaconda-install-8
 
-![Anaconda-install-8](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/20099441.jpg)
 
-Tpis : 如果已经安装过vscode或者vscode安装失败也没关系，直接下一步就好，之后可以去微软官网下载vscode安装包
 
-Anaconda-install-9
 
-![Anaconda-install-9](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/67023783.jpg)
 
-## 3.安装Tensorflow
 
-由于安装的是CPU版的Tensorflow，整体上来说没什么坑点，只要保持网络通常即可。
 
-Tpis：以下内容虽然分了章节，但其实是连续操作，**请勿关闭操作界面**
 
-### 3.1 为Tensorflow配置独立环境
 
-为什么在安装Tensorflow之前我们要先安装Anaconda呢？这主要是想为Tensorflow配置一个隔离的环境，目前python的版本非常多，各种辅助计算与富含多种功能的库也很多，其中不同的库可能会依赖于不同版本的python，不同的python库也有可能会互相影响(极个别情况)。所以推荐为Tensorflow配置一个独属于自己的环境。
-
-在这里我们推荐使用Python3.5作为Python的基础版本，相对于3.6版本，这个版本的机器学习库更多一些，适应性也相对好一点。
-
-TensorFlow-setting-1
-
-![TensorFlow-setting-1](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/87298029.jpg)
-
-AnacondaUi启动的时间比较长，可能需要等一会
-
-![waiting](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/83024932.jpg)
-
-TensorFlow-setting-2
-
-![TensorFlow-setting-2](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/89943739.jpg)
-
-TensorFlow-setting-3
-
-![TensorFlow-setting-2](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/6830634.jpg)
-
-TensorFlow-setting-4
-
-![TensorFlow-setting-4](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/61235229.jpg)
-
-TensorFlow-setting-5
-
-![TensorFlow-install-5](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/99216583.jpg)
-
-TensorFlow-setting-6
-
-![TensorFlow-install-6](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/95243812.jpg)
-
-### 3.2 正式安装Tensorflow
-
-接下来就是在我们创建的环境中进行安装了，打开Anaconda Navigator，找到Environment中的Tensorflow，点击Open Terminal后输入以下命令(如果因为网络问题失败，请重新输入相同命令)
-
-```bash
-
-pip install tensorflow
-
-```
-
-TensorFlow-install-1
-
-![TensorFlow-install-1](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/95758287.jpg)
-
-TensorFlow-install-2
-
-![TensorFlow-install-2](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/50310869.jpg)
-
-Tpis: 前面括号内的名称代表你当前所在环境的名称
-
-TensorFlow-install-3
-
-![TensorFlow-install-3](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/34712426.jpg)
-
-TensorFlow-install-4
-
-![TensorFlow-install-4](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/17675344.jpg)
-
-TensorFlow-install-error
-
-![error](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/81569950.jpg)
-
-Tpis：如果失败原因是time out的话请重新输入pip install tensorflow(其他原因可复制错误原因百度以下，有可能是pip被锁住了)
-
-### 3.3 验证Tensorflow环境
-
-在安装完Tensorflow后，我们还需要验证下Tensorflow是否安装成功，在刚才打开的Terminal中输入python，并输入以下代码，如果看到Hello, TensorFlow!输出则证明安装成功，如果是no moudle的话请检查是否安装错误
-
-```bash
-python
-```
-
-![TensorFlow-check-1](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/94025000.jpg)
-
-接下来在python中输入下列代码
-
-```python
-import tensorflow as tf
-hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()
-print(sess.run(hello))
-```
-
-![TensorFlow-check-2](http://ox0sjjwt5.bkt.clouddn.com/18-3-11/26151015.jpg)
