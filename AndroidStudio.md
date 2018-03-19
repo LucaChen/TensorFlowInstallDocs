@@ -129,24 +129,64 @@ AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如
 
 ## 4.下载并安装Android SDK
 
+安装完后你可能会发现为什么自己的AndroidStudio打不开,而且一直卡在初始界面，界面一直在显示Download
 
+这是由于我大天朝自有国情存在，你们都懂得，我们需要通过代理下载sdk
+
+打开我们的sdk安装位置，双击SDK Manager
 
 ![as-28](http://ok33lph8y.bkt.clouddn.com/28.png)
 
+回传下下图一样的界面
+
 ![as-29](http://ok33lph8y.bkt.clouddn.com/29.png)
 
+然后你可能会发现，他说下载失败，这个时候不要担心~
+
+我们给你们准备好了代理
+
+
 ![as-30](http://ok33lph8y.bkt.clouddn.com/30.png)
+
+输入给你们的代理网址和端口即可，然后点击Close，接下来你们就可以愉快的点击安装和下载
 
 ![as-31](http://ok33lph8y.bkt.clouddn.com/31.png)
 
 ![as-32](http://ok33lph8y.bkt.clouddn.com/32.png)
+
+## 4.运行自己的第一个Android 程序
+是时候试试自己的劳动成果了!
+
+打开刚才打不开的AndroidStudio，选择Start a new Android Studio Project
+
 ![as-33](http://ok33lph8y.bkt.clouddn.com/33.png)
+
+确认完图中的内容后就可以点击下一步了，投一次你也可以什么都不修改直接next
+
 ![as-34](http://ok33lph8y.bkt.clouddn.com/34.png)
+
+在接下来的这个页面你们可以选择支持的最小sdk，个人推荐是从4.4开始,点击next
+
 ![as-35](http://ok33lph8y.bkt.clouddn.com/35.png)
+
+选择开始生成的默认类型，我们选择Empty Activity就好
+
 ![as-36](http://ok33lph8y.bkt.clouddn.com/36.png)
+
+确认完图中内容后就可以直接点击确认啦
+
 ![as-37](http://ok33lph8y.bkt.clouddn.com/37.png)
+
+在我们刚刚打开一个项目的时候，他需要一段时间进行初始化
+
 ![as-38](http://ok33lph8y.bkt.clouddn.com/38.png)
+
+在初始化结束后我们就可以直接点击标题栏的绿色小箭头了
+
 ![as-39](http://ok33lph8y.bkt.clouddn.com/39.png)
+
+点击OK你的第一个HelloWord程序就写好啦，我们的Android开发环境就搭建好啦(:зゝ∠)_
+
 ![as-40](http://ok33lph8y.bkt.clouddn.com/40.png)
 
 
