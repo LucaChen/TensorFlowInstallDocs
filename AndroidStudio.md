@@ -103,33 +103,52 @@ AndroidStdio是开发Android APP的IDE。接下来的说明中我们将介绍如
 ![as-20](http://ok33lph8y.bkt.clouddn.com/20.png)
 
 之后一直点击NEXT，看到下面界面后再next
+
 ![as-21](http://ok33lph8y.bkt.clouddn.com/21.png)
 
+接下来就是正常的我同意
 
-![as-22](http://ok33lph8y.bkt.clouddn.com/20.png)
+![as-22](http://ok33lph8y.bkt.clouddn.com/22.png)
 
-![as-23](http://ok33lph8y.bkt.clouddn.com/20.png)
+注意全程不能有中文，顺便记下你sdk安装的位置
+
+![as-23](http://ok33lph8y.bkt.clouddn.com/23.png)
+
+之后直接点击install即进入安装界面 ，等待安装完成 
+
+![as-24](http://ok33lph8y.bkt.clouddn.com/24.png)
+
+![as-25](http://ok33lph8y.bkt.clouddn.com/25.png)
+
+之后next就好
+
+![as-26](http://ok33lph8y.bkt.clouddn.com/26.png)
 
 
-![as-24](http://ok33lph8y.bkt.clouddn.com/20.png)
+![as-27](http://ok33lph8y.bkt.clouddn.com/27.png)
+
+## 4.下载并安装Android SDK
 
 
-![as-25](http://ok33lph8y.bkt.clouddn.com/20.png)
 
+![as-28](http://ok33lph8y.bkt.clouddn.com/28.png)
 
-![as-26](http://ok33lph8y.bkt.clouddn.com/20.png)
+![as-29](http://ok33lph8y.bkt.clouddn.com/29.png)
 
+![as-30](http://ok33lph8y.bkt.clouddn.com/30.png)
 
-![as-27](http://ok33lph8y.bkt.clouddn.com/20.png)
+![as-31](http://ok33lph8y.bkt.clouddn.com/31.png)
 
+![as-32](http://ok33lph8y.bkt.clouddn.com/32.png)
+![as-33](http://ok33lph8y.bkt.clouddn.com/33.png)
+![as-34](http://ok33lph8y.bkt.clouddn.com/34.png)
+![as-35](http://ok33lph8y.bkt.clouddn.com/35.png)
+![as-36](http://ok33lph8y.bkt.clouddn.com/36.png)
+![as-37](http://ok33lph8y.bkt.clouddn.com/37.png)
+![as-38](http://ok33lph8y.bkt.clouddn.com/38.png)
+![as-39](http://ok33lph8y.bkt.clouddn.com/39.png)
+![as-40](http://ok33lph8y.bkt.clouddn.com/40.png)
 
-![as-28](http://ok33lph8y.bkt.clouddn.com/20.png)
-
-![as-29](http://ok33lph8y.bkt.clouddn.com/20.png)
-
-![as-30](http://ok33lph8y.bkt.clouddn.com/20.png)
-
-![as-31](http://ok33lph8y.bkt.clouddn.com/20.png)
 
 
 
